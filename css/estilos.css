@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: gray;
+}
+
+.caja_master {
+  margin-top: 100px;
+}
+
+h1 {
+  font-family: 'Voltaire', sans-serif;
+}
+
+h2 {
+  margin: 30px;
+  color: #fff;
+  text-align: center;
+}
+
+.contenedor_logo {
+  width: 70%;
+  margin: 20px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.caja_logos {
+  width: 100px;
+  height: 100px;
+  margin: 40px;
+}
+
+.caja_logos img {
+  width: 100%;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.caja_logos img:hover {
+  -webkit-transform: translate(0, -20px);
+          transform: translate(0, -20px);
+}
+
+.caja_logos .texto_stiker {
+  text-align: center;
+  font-family: 'Abel', sans-serif;
+}
+
+@media (max-width: 400px) {
+  .caja_logos .tooltip_caja {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .caja_logos {
+    margin-bottom: 80px;
+  }
+}
+/*# sourceMappingURL=estilos.css.map */

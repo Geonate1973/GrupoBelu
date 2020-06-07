@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: gray
+    
+}
+
+.caja_master{
+    margin-top: 100px;
+}
+
+h1{
+    
+    font-family: 'Voltaire', sans-serif;
+}
+
+h2{
+    margin: 30px;
+    //font-family: 'Caveat', cursive;
+    color:#fff;
+    text-align: center;
+}
+
+
+
+.contenedor_logo{
+    width: 70%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.caja_logos{
+    
+    width: 100px;
+    height: 100px;
+    margin: 40px;
+    
+
+        img{
+            width: 100%;
+            transition: 0.5s ease;
+                &:hover{
+                    transform:translate(0,-20px);
+                }
+        }
+
+        .texto_stiker{
+            text-align: center;
+            font-family: 'Abel', sans-serif;
+            
+            }
+        
+        @media  (max-width:400px){
+            .tooltip_caja{
+                display: none;
+            }
+
+        }
+
+
+    
+}
+
+
+@media (max-width: 400px){
+    .caja_logos{
+        margin-bottom: 80px;
+    }
+}
